@@ -1,0 +1,71 @@
+body{
+    height: 2000px;
+}
+
+
+#txt_footer{
+    margin: 20px;
+    padding: 15px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    border-left: solid white 1px;
+}
+
+
+
+@media(max-width: 912px){
+   #ctt_topo1{
+    display: none;
+   }
+   #ctt_topo2{
+    display: none;
+   }
+   #ctt_topo3{
+    display: none;
+   }
+   #ctt_topo4{
+    display: none;
+   }
+   #ctt_topo5{
+    display: none;
+   }
+}
+
+@media(max-width: 1156px){
+   #ctt_topo1{
+    display: none;
+   }
+   #ctt_topo2{
+    display: none;
+   }
+
+}
+
+
+@media(max-width: 414px){
+   #endereco_topo{
+    font-size: 9px;
+   }
+
+}
+
+
+
+.navbar-toggler {
+  background-color: transparent !important;
+  border: none !important;
+  
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  color: #000 !important; /* define a cor do ícone */
+}
+
